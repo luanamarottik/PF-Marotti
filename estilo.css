@@ -326,6 +326,42 @@ p {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input {
+  margin: 8px;
+  padding: 12px 20px;
+  border: 2px #274442;
+  border-radius: 4px;
+}
+
+textarea {
+  margin: 8px;
+  padding: 12px 20px;
+  border: 2px #274442;
+  border-radius: 4px;
+}
+
+label {
+  margin-top: 15px;
+}
+
+.rellenarFormulario {
+  width: 50%;
+  background-color: #a3bab4;
+}
+
+.botones {
+  margin-top: 15px;
+  background-color: #4F7375;
+  border: 5px #274442;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.botones:hover {
+  color: #e9e5e3;
+  background-color: #274442;
 }
 
 /** CONTACTO **/

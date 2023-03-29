@@ -34,25 +34,25 @@
 			<form action="#" enctype="application/x-www-form-urlencoded" method="GET" >
             	<!-- Nombre -->
             	<label for="nombre">Nombre</label></br>
-            	<input type="text" name="nombre" id="nombre"></br>
+            	<input class="rellenarFormulario" type="text" name="nombre" id="nombre"></br>
             	<!-- Email -->
             	<label for="email">Email</label></br>
-            	<input type="email" name="email" id="email"></br>
+            	<input class="rellenarFormulario" type="email" name="email" id="email"></br>
             	<!--Teléfono -->
             	<label for="telefono">Teléfono</label></br>
-            	<input type="number" name="telefono" id="telefono"></br>
+            	<input class="rellenarFormulario" type="number" name="telefono" id="telefono"></br>
             	<!-- Fecha -->
             	<label for="fecha">Fecha</label><br>
-            	<input type="datetime-local" name="fecha" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}" min="2023-01-24T15:00" max="2023-12-31T:21:00"><br>
+            	<input class="rellenarFormulario" type="datetime-local" name="fecha" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}" min="2023-01-24T15:00" max="2023-12-31T:21:00"><br>
             	<!-- Comentarios -->
             	<label for="comentarios">Comentarios</label><br>
-            	<textarea name="comentarios" cols="30" rows="10"></textarea><br>
+            	<textarea class="rellenarFormulario" name="comentarios" cols="30" rows="10"></textarea><br>
             	<!-- Subscripción -->
 				<input type="checkbox">
             	<label for="promociones">Quiero subscribirme para no perderme de nada!</label><br>
             	<!-- Enviar o borrar-->
-            	<input type="submit" value="Enviar" class="enviar">
-				<input type="reset" value="Borrar" class="borrar"><br>
+            	<input class="botones" type="submit" value="Enviar" class="enviar">
+				<input class="botones" type="reset" value="Borrar" class="borrar"><br>
         	</form>
 			</div>
     	</section>
